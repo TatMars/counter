@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+  margin-top: 10%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: 1px 1px 8px black;
+  font-size: 30px;
+  color: #1c1c1c;
+}
+
+h3 {
+  padding: 1em;
+}
+
+.btn {
+  padding: 1em;
+}
+
+.btnPlus {
+  padding: 8px 20px;
+  background-color: rgba(125, 72, 31, 0.522);
+  margin-right: 20px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 3px 5px 9px rgb(54, 101, 113);
+}
+
+.btnMinus {
+  padding: 8px 20px;
+  background-color: rgba(15, 97, 38, 0.729);
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 3px 5px 9px rgb(8, 130, 28);
+}
+
+.btnDelete {
+  padding: 8px 20px;
+  background-color: rgb(198, 50, 50);
+  margin-left: 20px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 3px 5px 9px rgb(105, 0, 0);
+  font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.btnPlus:hover {
+  background: rgb(118, 201, 110);
+}
+
+.btnPlus:active {
+  background: rgb(214, 237, 212);
+}
+
+.btnMinus:hover {
+  background: rgb(99, 92, 228);
+}
+
+.btnMinus:active {
+  background: rgb(183, 180, 236);
+}
+
+.btnDelete:hover {
+  background: rgb(149, 40, 40);
+}
+
+.btnDelete:active {
+  background: rgb(222, 120, 120);
+}
+
+.input {
+  font-size: 20px;
+  margin-top: 2em;
+}
+
+.btnOk {
+  padding: 8px 20px;
+  background-color: rgb(246, 156, 12);
+  margin-right: 20px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 3px 5px 9px rgb(99, 113, 16);
+}
+
+.btnOk:hover {
+  background: rgb(144, 137, 40);
+}
+
+.btnOk:active {
+  background: rgb(255, 255, 130);
+}
+
+.output {
+  margin-top: 1em;
+}
